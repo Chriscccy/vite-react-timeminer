@@ -1,7 +1,7 @@
 import { useLocation, useNavigate } from "react-router-dom";
 import "./index.scss";
 import { TabBar } from "antd-mobile";
-import { AppOutline, AppstoreOutline, UserOutline } from "antd-mobile-icons";
+import { UserOutline } from "antd-mobile-icons";
 
 import { LuPickaxe, LuBlocks } from "react-icons/lu";
 
