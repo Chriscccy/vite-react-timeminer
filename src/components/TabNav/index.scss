@@ -1,0 +1,12 @@
+.TabNavComponent {
+  border-top: solid 1px var(--color-border);
+  background-color: var(--color-nav-bar-background);
+  box-shadow: 0px -3px 6px rgb(0, 0, 0, 0.1);
+
+  .adm-tab-bar-item {
+    color: var(--color-nav-bar);
+  }
+  .adm-tab-bar-item-active {
+    color: var(--color-nav-bar-active);
+  }
+}

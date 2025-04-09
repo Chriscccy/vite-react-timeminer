@@ -1,0 +1,19 @@
+:root:root {
+  --adm-color-primary: #1677ff;
+
+  .light-theme {
+    --color-background: #ffffff;
+    --color-text: #000000;
+    --color-border: #eee;
+
+    --color-nav-bar: #666;
+    --color-nav-bar-active: var(--adm-color-primary);
+    --color-nav-bar-background: #fafbfc;
+  }
+
+  .dark-theme {
+    --color-background: #000000;
+    --color-text: #ffffff;
+    --color-border: blue;
+  }
+}

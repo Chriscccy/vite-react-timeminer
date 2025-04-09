@@ -1,0 +1,16 @@
+.Layout {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.ContentBody {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TabNavBottom {
+  flex: 0;
+}
