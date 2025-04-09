@@ -12,7 +12,7 @@ const TabNav: React.FC = () => {
   const tabs = [
     {
       key: "/dashboard",
-      title: "Dash",
+      title: "Dashboard",
       icon: <LuBlocks />,
     },
     {
