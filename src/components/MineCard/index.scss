@@ -1,0 +1,73 @@
+.MineCard-Container {
+  background-color: var(--color-background);
+  color: var(--color-text);
+
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  gap: 8px;
+  box-shadow: 0px 2px 8px 0px rgb(0, 255, 0, 0.2);
+
+  .adm-progress-circle-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+  }
+}
+
+.Mine-Popup-Container {
+  color: white;
+  background-color: black;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px 8px 0px 0px;
+  box-shadow: 0px 2px 8px 0px rgba(0, 255, 0, 2);
+
+  .Popup-Header {
+    // background-color: rgb(15, 15, 15);
+
+    border-radius: 8px 8px 0px 0px;
+    color: lime;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  .Popup-Content {
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Otp-Form {
+    padding: 0 20px;
+
+    .adm-list-body {
+      background-color: transparent;
+      border: none;
+    }
+
+    .item-otp {
+      border-radius: 100px;
+
+      .OTP-Icon {
+        padding: 4px;
+        cursor: pointer;
+        svg {
+          display: block;
+          font-size: var(--adm-font-size-7);
+        }
+      }
+    }
+  }
+
+  .Popup-Button-Container {
+    margin: 20px 0;
+  }
+}

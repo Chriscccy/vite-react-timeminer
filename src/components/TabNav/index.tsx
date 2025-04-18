@@ -1,9 +1,9 @@
 import { useLocation, useNavigate } from "react-router-dom";
 import "./index.scss";
 import { TabBar } from "antd-mobile";
-import { UserOutline } from "antd-mobile-icons";
+import { PiGraphicsCardBold } from "react-icons/pi";
 
-import { LuPickaxe, LuBlocks } from "react-icons/lu";
+import { LuPickaxe, LuBlocks, LuCircleUser, LuWallet } from "react-icons/lu";
 
 const TabNav: React.FC = () => {
   const location = useLocation();
@@ -16,14 +16,24 @@ const TabNav: React.FC = () => {
       icon: <LuBlocks />,
     },
     {
+      key: "/stake",
+      title: "Stake",
+      icon: <PiGraphicsCardBold />,
+    },
+    {
       key: "/mine",
       title: "Mine",
       icon: <LuPickaxe />,
     },
     {
-      key: "/setting",
-      title: "Setting",
-      icon: <UserOutline />,
+      key: "/wallet",
+      title: "Wallet",
+      icon: <LuWallet />,
+    },
+    {
+      key: "/account",
+      title: "Account",
+      icon: <LuCircleUser />,
     },
   ];
 

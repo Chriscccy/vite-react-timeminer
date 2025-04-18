@@ -1,0 +1,9 @@
+.Assets-Card {
+  .Card-Row {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    align-items: center;
+    flex-direction: row;
+  }
+}

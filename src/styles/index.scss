@@ -1,19 +1,42 @@
 :root:root {
   --adm-color-primary: #1677ff;
 
+  .adm-toast-main {
+    // background-color: rgba(0, 100, 0, 0.9) !important;
+    background-color: rgba(0, 255, 0, 0.2) !important;
+  }
+  .adm-toast-mask {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+  }
+
   .light-theme {
+    .adm-card {
+      box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    }
+
     --color-background: #ffffff;
     --color-text: #000000;
-    --color-border: #eee;
+    --color-border: #d6d6d6;
+
+    --color-layout-background: #f0f1f1;
 
     --color-nav-bar: #666;
     --color-nav-bar-active: var(--adm-color-primary);
-    --color-nav-bar-background: #fafbfc;
+    --color-nav-bar-background: #fff;
   }
-
   .dark-theme {
+    .adm-card {
+      box-shadow: 0px 2px 8px 0px rgba(0, 255, 0, 0.2);
+    }
     --color-background: #000000;
     --color-text: #ffffff;
-    --color-border: blue;
+    --color-border: white;
+
+    // --color-layout-background: rgb(0, 0, 0);
+    --color-layout-background: rgb(20, 20, 20);
+
+    --color-nav-bar: #666;
+    --color-nav-bar-active: lime;
+    --color-nav-bar-background: black;
   }
 }
